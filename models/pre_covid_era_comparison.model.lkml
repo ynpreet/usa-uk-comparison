@@ -1,4 +1,4 @@
-connection: "inhouse_bi"
+connection: "usaccount"
 
 # include all the views
 include: "/views/**/*.view"

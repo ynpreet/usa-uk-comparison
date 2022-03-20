@@ -1,5 +1,5 @@
 view: comparison_covid_era {
-  sql_table_name: `Inhouse_BI.comparison_covid_era`
+  sql_table_name: `gcp_poc_datalake.comparison_covid_era`
     ;;
 
   dimension: country {
