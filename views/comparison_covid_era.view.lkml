@@ -3,10 +3,12 @@ view: comparison_covid_era {
     ;;
 
   dimension: country {
-    type: string
-    map_layer_name: countries
-    sql: ${TABLE}.Country ;;
-  }
+      type: string
+      sql: ${TABLE}.homepage_url;;
+      html: <img src="https://logo-core.clearbit.com/looker.com" /> ;;
+    }
+
+
 
   dimension: depression {
     type: number
